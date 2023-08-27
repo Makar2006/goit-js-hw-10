@@ -1,0 +1,1 @@
+{"mappings":"gfAAAA,EAAA,Q","sources":["src/index.js"],"sourcesContent":["import { fetchBreeds } from './js/cat-api';\n"],"names":["parcelRequire"],"version":3,"file":"index.7b1b4328.js.map"}
