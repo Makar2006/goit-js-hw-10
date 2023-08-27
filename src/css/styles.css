@@ -1,13 +1,6 @@
-li {
-  list-style: none;
-}
-img {
+.img-cat {
   display: block;
   max-width: 100%;
-}
-
-h1 {
-  margin: 0;
 }
 
 .is-hidden {
@@ -24,15 +17,18 @@ h1 {
 }
 
 .cat-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   margin-top: 20px;
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
+  gap: 5px;
   background-color: #008000;
 }
-
+.header-second {
+  margin: 0px;
+}
 .loader {
   margin: auto;
   transform: rotateZ(45deg);

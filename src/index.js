@@ -70,7 +70,7 @@ function onChange(e) {
 function createMarkup(data) {
   const card = data
     .map(el => {
-      return `<img src="${el.url}" alt="${el.breeds[0].name}" width="400"/><h2>${el.breeds[0].name}</h2><p>${el.breeds[0].description}</p><h3>Temperament</h3><p>${el.breeds[0].temperament}</p>`;
+      return `<img class="img-cat" src="${el.url}" alt="${el.breeds[0].name}" width="400"/><h2>Name: ${el.breeds[0].name}</h2><p>${el.breeds[0].description}</p><h2>Temperament:</h2><p>${el.breeds[0].temperament}</p>`;
     })
     .join('');
   catInfoEl.innerHTML = card;
